@@ -1,0 +1,129 @@
+.Container1{
+    height: 9%;
+    background-color: rgb(236, 236, 236);
+    padding-left: 15px;
+}
+
+.header1{
+ padding-top:2% ;
+ padding-bottom: 2%;
+ text-align: left;
+ font-size: 30px;
+ letter-spacing: 0;
+}
+.header2{
+ font-size: 20px;
+ margin-left: 15px;
+}
+
+.paper{
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    /* background-image: linear-gradient(270deg,#1caba2 25%,#1c7fab); */
+}
+.paper1{
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+    background-image: linear-gradient(270deg,#1caba2 25%,#1c7fab);
+}
+.image1{
+    margin-left: -20px;
+}
+.Button1{
+    background-image: linear-gradient(270deg,#1caba2 25%,#1c7fab);
+    height: 60px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.p1{
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.p2{
+    font-size: 110%;
+}
+
+.p3{
+    font-size: 130%;
+    margin-left: 10px;
+}
+
+.p4{
+    font-size: 130%;
+    margin-left: 10px;
+    font-weight: 500;
+    color:#1caba2;
+}
+
+.p5{
+    margin-left: 30px;
+    margin-top: -14px;
+}
+
+.Button2{
+    height: 45px;
+    width: 89%;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.effect{
+   font-size:11 ;
+    margin-left:25 ;
+    margin-top:0 ;
+}
+
+
+.effect1{
+    background-color: white;  
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes myfirst {
+    0%   {color:#c9b410; }
+    25%  {color:rgb(255, 255, 47); }
+    35%  {color:#c9b410; }
+    50%  {color:rgb(255, 255, 47); }
+    66%  {color:#c9b410; }
+    85%  {color:rgb(238, 255, 1); }
+    100% {color:#c9b410; }
+  }
+
+  .stdiv{
+      width: 160px;
+      padding: 1px;
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 5px;
+      margin-left: -400px;
+      margin-top: 10px;
+  }
+
+  .container10{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  /* .productPage{
+     position: relative; 
+     width: 100%;
+     background-color: #1caba2;
+     z-index: 0;
+  }
+  .product{
+      position: static;
+      margin-left: 20%;
+      z-index: 2;
+  } */
+ 
+ 

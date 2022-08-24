@@ -1,0 +1,212 @@
+.revvblock {
+  color: white;
+  height: 200px !important;
+  width: 100%;
+  margin: 20px;
+  background-repeat: no-repeat;
+  box-shadow: black 0px 6px 8px 3px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 50%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: cover;
+  font-family: Poppins;
+  font-weight: 500;
+  position: relative;
+}
+
+.how {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  color: rgb(27, 28, 36);
+  font-weight: 700;
+  text-align: left;
+  margin-left: 24%;
+  margin-bottom: -25px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 100% 100% 100%;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.circlepaper {
+  border: 8px solid #ddd;
+  content: "\f09d";
+  height: 120px;
+  width: 120px;
+  margin: 0;
+  text-align: left;
+  display: block;
+  border-top-color: rgb(221, 221, 221);
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-right-color: rgb(221, 221, 221);
+  border-right-style: solid;
+  border-right-width: 8px;
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-left-color: rgb(221, 221, 221);
+  border-left-style: solid;
+  border-left-width: 8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(255, 255, 255);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px,
+    rgba(0, 0, 0, 0.22) 0px 10px 18px;
+  border-radius: 50%;
+}
+
+.return,
+.stear,
+.img,
+.car {
+  width: 55px;
+  margin-left: 25px;
+  margin-top: 25px;
+
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  backface-visibility: hidden;
+  position: relative;
+  padding-right: 2.2em;
+  transition-duration: 0.3s;
+}
+
+.img:hover,
+.car:hover {
+  color: #fff !important;
+  border-radius: 50%;
+}
+.stear:hover {
+  border-radius: 50%;
+  padding: 24px;
+  margin-left: 0px;
+  border: 8px solid #ddd;
+  margin-top: -1px;
+}
+.circlepaper :hover {
+  transform: scale(1.3);
+  background-color: #0ebaba !important;
+  padding: 24px;
+  margin-left: 0px;
+  border: 8px solid #ddd;
+  margin-top: -1px;
+}
+.return:hover {
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+.book {
+  font-family: Poppins;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+.pick {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  font-family: Poppins;
+  line-height: 1.5;
+  color: #212529;
+  width: 240px;
+}
+.howitworks {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 24%;
+  /* width: 100%; */
+  /* padding-right: 15px;
+padding-left: 15px; */
+}
+.hr {
+  margin-top: 50px;
+  margin-left: -120px;
+}
+
+.sanout {
+  max-width: 1200px;
+  width: 100%;
+  font-family: Poppins;
+  font-weight: 600;
+  position: relative;
+  /* margin-top: -120px !important; */
+
+  border-radius: 4px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+.san {
+  font-size: 25px;
+  color: rgb(136, 137, 147);
+  font-family: Poppins;
+  font-weight: 400;
+  margin: 0px;
+  text-align: left;
+  padding: 30px 0px 20px 15px;
+  /* margin-right: 20px; */
+}
+.spann {
+  font-family: Poppins;
+  font-size: 28px;
+  color: rgb(27, 28, 36);
+  font-weight: 700;
+  margin-left: 20px;
+}
+.imgg {
+  width: 250px;
+  /* margin-right: -300px; */
+}
+
+.title {
+  font-size: 28px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  padding-top: 50px;
+  text-align: center;
+}
+.titlee {
+  padding-top: 25px;
+  text-align: center;
+}
+.para {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  width: 70%;
+  margin: auto;
+  /* background-color: #212529; */
+}
+.container {
+  /* background-color: red; */
+  width: 95%;
+  /* margin-left: 50px; */
+  margin: auto;
+}
+.padd {
+  margin-right: 6px;
+  margin-left: -120px;
+}

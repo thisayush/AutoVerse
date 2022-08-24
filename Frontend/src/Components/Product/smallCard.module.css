@@ -1,0 +1,61 @@
+.icon{
+width: 30px;
+}
+
+.pTag1{
+    margin-top: 0px;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.container{
+    text-align: left;
+}
+
+.pTag2{
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container3{
+    display: flex;
+}
+
+.pTag4{
+    margin-top:7px ;
+    margin-bottom: 7px;
+}
+
+.image1{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.image2{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.container4{
+    width: 370px;
+}
+
+.container5{
+    background-color: white;
+    box-shadow: 0px 3px 3px 2px silver;
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+}
+
+.pTag6{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.pTag7{
+    font-weight: 600;
+    margin-top: -3px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
